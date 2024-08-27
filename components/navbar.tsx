@@ -51,7 +51,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <Search />
             <div className="flex">
-              <Link
+              {/* <Link
                 href="https://github.com/nisabmohd/Docs-Stater-Template"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
@@ -65,7 +65,7 @@ export function Navbar() {
                 })}
               >
                 <TwitterIcon className="h-[1.1rem] w-[1.1rem]" />
-              </Link>
+              </Link> */}
               <ModeToggle />
             </div>
           </div>
